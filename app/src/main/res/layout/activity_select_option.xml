@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selectOptionActivity"
+    android:background="#313853"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#ccccf4"
+        android:text="Any additional feedback that you want to provide -"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Enter more feedback"
+        android:gravity="top"
+        android:background="#ffffff"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#ccccf4"
+        android:text="Select to whom this problem should be sent-"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <Button
+            android:id="@+id/municipality"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Municipality"
+            android:textColor="#ccccf4"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttons"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/vet"
+            android:layout_width="0dp"
+            android:background="@drawable/buttons"
+            android:text="Vet"
+            android:textColor="#ccccf4"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/electricityOffice"
+        android:layout_width="200dp"
+        android:background="@drawable/buttons"
+        android:text="Electricity Office"
+        android:layout_gravity="center"
+        android:textColor="#ccccf4"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="100dp"
+        android:background="@drawable/buttons"
+        android:text="Send"
+        android:layout_gravity="center"
+        android:textColor="#ccccf4"
+        android:textSize="25sp"
+        android:layout_margin="50dp"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#313853">
+
+    <TextView
+        android:text="PI"
+        android:textColor="#ccccf4"
+        android:layout_margin="40dp"
+        android:textSize="70sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="300dp"
+        android:background="@drawable/buttons"
+        android:textColor="#ccccf4"
+        android:text="Start"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="100dp"
+        android:layout_margin="40sp"/>
+    <Button
+        android:id="@+id/about"
+        android:text="About"
+        android:textColor="#ccccf4"
+        android:background="@drawable/buttons"
+        android:textSize="25sp"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="100dp" />
+
+</LinearLayout>

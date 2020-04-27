@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sendActivity"
+    android:background="#313853"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ccccf4"
+        android:text="Preview"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#000" />
+    <Button
+        android:id="@+id/takePhoto"
+        android:background="@drawable/buttons"
+        android:text="Take Photo"
+        android:textColor="#ccccf4"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/next"
+        android:background="@drawable/buttons"
+        android:text="Next"
+        android:textColor="#ccccf4"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
